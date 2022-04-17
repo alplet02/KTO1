@@ -1,0 +1,19 @@
+﻿<Page x:Class="podg.Pages.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:podg.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid>
+        <Label Content="Сложение" HorizontalAlignment="Left" Margin="318,34,0,0" VerticalAlignment="Top" Height="36" Width="252" FontSize="24"/>
+        <TextBox x:Name="a_box" HorizontalAlignment="Left" Margin="117,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="a_box_TextChanged"/>
+        <TextBox x:Name="b_box" HorizontalAlignment="Left" Margin="117,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Посчитать" HorizontalAlignment="Left" Margin="238,259,0,0" VerticalAlignment="Top" Height="21" Width="234" Click="Button_Click"/>
+        <Label Content="Ответ появится тут" HorizontalAlignment="Left" Margin="238,316,0,0" VerticalAlignment="Top" Height="35" Width="234"/>
+
+    </Grid>
+</Page>

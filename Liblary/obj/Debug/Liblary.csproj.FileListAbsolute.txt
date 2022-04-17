@@ -1,0 +1,6 @@
+C:\Users\Влёна\source\repos\podg\Liblary\bin\Debug\Liblary.dll
+C:\Users\Влёна\source\repos\podg\Liblary\bin\Debug\Liblary.pdb
+C:\Users\Влёна\source\repos\podg\Liblary\obj\Debug\Liblary.csproj.AssemblyReference.cache
+C:\Users\Влёна\source\repos\podg\Liblary\obj\Debug\Liblary.csproj.CoreCompileInputs.cache
+C:\Users\Влёна\source\repos\podg\Liblary\obj\Debug\Liblary.dll
+C:\Users\Влёна\source\repos\podg\Liblary\obj\Debug\Liblary.pdb

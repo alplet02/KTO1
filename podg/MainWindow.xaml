@@ -1,0 +1,21 @@
+﻿<Window x:Class="podg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:podg"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="454" Width="905">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="139*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Border  Background="IndianRed" BorderBrush="Black" BorderThickness="1" Margin="0,0,0,349">
+            <Frame x:Name="MainFrame"  Margin="-1,-1,0,-322" NavigationUIVisibility="Hidden" Source="/Pages/Page1.xaml"/>
+        </Border>
+        <Border Background="#FF6EBBFF" BorderBrush="Black" BorderThickness="1" Margin="0,389,0,0" Grid.RowSpan="3"/>
+
+    </Grid>
+</Window>
